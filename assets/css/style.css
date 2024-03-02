@@ -5,3 +5,7 @@ body * {
 .navbar {
     background-color: transparent !important;
 }
+
+.bg-black {
+    background: #000000;
+}
