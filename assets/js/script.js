@@ -18,7 +18,7 @@ $(document).ready(function () {
         alert("La consulta fue enviada correctamente...")
     });
     /* oculta/muestra el texto de las tarjetas al hacer click en cualquier imágen */
-    $('.card-img-top').on("click", function (){
+    $('.card-img-top').on("click", function () {
         $('.card-body').toggle()
     });
 });
