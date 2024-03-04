@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    /* SmoothScroll */
     $("a").on('click', function (event) {
         if (this.hash !== "") {
             event.preventDefault();
@@ -9,5 +10,11 @@ $(document).ready(function () {
                 window.location.hash = hash;
             })
         }
+    });
+    /* Tooltip Formulario*/
+    $('[data-toggle="tooltip"]').tooltip();
+    /*Alerta al hacer click en "Enviar" Formulario */
+    $('#enviarForma').on("click", function () {
+        alert("La consulta fue enviada correctamente...")
     });
 });
