@@ -1,12 +1,15 @@
+/* Definimos font-family y color de tipografía para toda la pagina */
 body * {
     font-family: "Roboto", sans-serif;
     color: #ffffff;
 }
 
+/* Navbar transparente */
 .navbar {
     background-color: transparent !important;
 }
 
+/* Fondo negro */
 .bg-black {
     background: #000000;
 }
