@@ -13,9 +13,10 @@ $(document).ready(function () {
     });
     /* Tooltip Formulario*/
     $('[data-toggle="tooltip"]').tooltip();
-    /*Alerta al hacer click en "Enviar" Formulario */
+    /*Alerta y mensaje en consola al hacer click en "Enviar" Formulario */
     $('#enviarForma').on("click", function () {
         alert("La consulta fue enviada correctamente...")
+        console.log("Se envió nueva consulta")
     });
     /* oculta/muestra el texto de las tarjetas al hacer click en cualquier imágen */
     $('.card-img-top').on("click", function () {
